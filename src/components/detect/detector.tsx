@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Camera, Lightbulb, Loader2, RotateCcw, ScanLine, Upload } from "lucide-react"
 import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
@@ -8,7 +8,7 @@ import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import { loadImage, preprocess, type Preprocessed } from "@/lib/preprocess"
-import { predict, type PredictResult } from "@/lib/predict"
+import { predict, preloadModel, type PredictResult } from "@/lib/predict"
 import { CameraCapture } from "./camera-capture"
 import { ResultPanel } from "./result-panel"
 import { UploadZone } from "./upload-zone"
@@ -28,6 +28,10 @@ export function Detector() {
   const [result, setResult] = useState<PredictResult | null>(null)
   const [loading, setLoading] = useState(false)
   const [text, setText] = useState("")
+
+  useEffect(() => {
+    preloadModel()
+  }, [])
 
   const onImage = async (dataUrl: string) => {
     setImage(dataUrl)
