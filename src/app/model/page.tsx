@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { ExternalLink, Hourglass } from "lucide-react"
 import { SectionHeading } from "@/components/layout/section-heading"
+import { TrainingCurves } from "@/components/model/training-curves"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -177,7 +178,11 @@ export default function ModelPage() {
             <CardDescription>Akurasi & loss per epoch (latih vs validasi).</CardDescription>
           </CardHeader>
           <CardContent>
-            <EmptyState text="Grafik akan tampil setelah riwayat pelatihan tersedia." />
+            {r && r.history.length > 0 ? (
+              <TrainingCurves history={r.history} />
+            ) : (
+              <EmptyState text="Grafik akan tampil setelah riwayat pelatihan tersedia." />
+            )}
           </CardContent>
         </Card>
 
