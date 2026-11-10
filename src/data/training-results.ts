@@ -10,290 +10,241 @@ export type TrainingResults = {
 }
 
 export const TRAINING_RESULTS: TrainingResults | null = {
-  "testAccuracy": 0.9823,
-  "testLoss": 0.0535,
-  "valAccuracy": 0.9908,
-  "epochs": 40,
+  "testAccuracy": 0.981,
+  "testLoss": 0.0591,
+  "valAccuracy": 0.9949,
+  "epochs": 33,
   "history": [
     {
       "epoch": 1,
-      "acc": 0.2228,
-      "valAcc": 0.0544,
-      "loss": 2.5185,
-      "valLoss": 4.8316
+      "acc": 0.2256,
+      "valAcc": 0.0716,
+      "loss": 2.5133,
+      "valLoss": 4.7771
     },
     {
       "epoch": 2,
-      "acc": 0.463,
-      "valAcc": 0.0651,
-      "loss": 1.5743,
-      "valLoss": 5.3013
+      "acc": 0.467,
+      "valAcc": 0.0675,
+      "loss": 1.5601,
+      "valLoss": 5.145
     },
     {
       "epoch": 3,
-      "acc": 0.6155,
-      "valAcc": 0.4173,
-      "loss": 1.1219,
-      "valLoss": 1.6956
+      "acc": 0.6164,
+      "valAcc": 0.4105,
+      "loss": 1.1161,
+      "valLoss": 1.7106
     },
     {
       "epoch": 4,
-      "acc": 0.702,
-      "valAcc": 0.5178,
-      "loss": 0.8644,
-      "valLoss": 1.4908
+      "acc": 0.7068,
+      "valAcc": 0.4812,
+      "loss": 0.8527,
+      "valLoss": 1.7528
     },
     {
       "epoch": 5,
-      "acc": 0.7707,
-      "valAcc": 0.304,
-      "loss": 0.6789,
-      "valLoss": 4.5042
+      "acc": 0.7701,
+      "valAcc": 0.3489,
+      "loss": 0.6764,
+      "valLoss": 3.5454
     },
     {
       "epoch": 6,
-      "acc": 0.8084,
-      "valAcc": 0.8463,
-      "loss": 0.5683,
-      "valLoss": 0.4341
+      "acc": 0.8121,
+      "valAcc": 0.8954,
+      "loss": 0.5599,
+      "valLoss": 0.3181
     },
     {
       "epoch": 7,
-      "acc": 0.8421,
-      "valAcc": 0.6992,
-      "loss": 0.4737,
-      "valLoss": 0.9397
+      "acc": 0.8444,
+      "valAcc": 0.8046,
+      "loss": 0.469,
+      "valLoss": 0.505
     },
     {
       "epoch": 8,
-      "acc": 0.8685,
-      "valAcc": 0.4817,
+      "acc": 0.8679,
+      "valAcc": 0.471,
       "loss": 0.403,
-      "valLoss": 2.4259
+      "valLoss": 2.1899
     },
     {
       "epoch": 9,
       "acc": 0.8873,
-      "valAcc": 0.5882,
-      "loss": 0.3458,
-      "valLoss": 1.6057
+      "valAcc": 0.6215,
+      "loss": 0.3493,
+      "valLoss": 1.4521
     },
     {
       "epoch": 10,
-      "acc": 0.9083,
-      "valAcc": 0.9126,
-      "loss": 0.2873,
-      "valLoss": 0.2341
+      "acc": 0.9099,
+      "valAcc": 0.9318,
+      "loss": 0.2856,
+      "valLoss": 0.1931
     },
     {
       "epoch": 11,
-      "acc": 0.9162,
-      "valAcc": 0.8109,
-      "loss": 0.2677,
-      "valLoss": 0.4813
+      "acc": 0.9137,
+      "valAcc": 0.8407,
+      "loss": 0.2687,
+      "valLoss": 0.3745
     },
     {
       "epoch": 12,
-      "acc": 0.9224,
-      "valAcc": 0.9667,
-      "loss": 0.2472,
-      "valLoss": 0.1118
+      "acc": 0.9218,
+      "valAcc": 0.9279,
+      "loss": 0.2507,
+      "valLoss": 0.1982
     },
     {
       "epoch": 13,
-      "acc": 0.929,
-      "valAcc": 0.9109,
-      "loss": 0.2287,
-      "valLoss": 0.2274
+      "acc": 0.9275,
+      "valAcc": 0.9029,
+      "loss": 0.2314,
+      "valLoss": 0.2444
     },
     {
       "epoch": 14,
-      "acc": 0.9359,
-      "valAcc": 0.8682,
-      "loss": 0.2115,
-      "valLoss": 0.3526
+      "acc": 0.9389,
+      "valAcc": 0.8988,
+      "loss": 0.2044,
+      "valLoss": 0.2544
     },
     {
       "epoch": 15,
-      "acc": 0.9385,
-      "valAcc": 0.8801,
-      "loss": 0.2029,
-      "valLoss": 0.2974
+      "acc": 0.9411,
+      "valAcc": 0.8631,
+      "loss": 0.1977,
+      "valLoss": 0.3477
     },
     {
       "epoch": 16,
-      "acc": 0.9445,
+      "acc": 0.9424,
       "valAcc": 0.933,
-      "loss": 0.1805,
-      "valLoss": 0.1739
+      "loss": 0.1911,
+      "valLoss": 0.1722
     },
     {
       "epoch": 17,
-      "acc": 0.9484,
-      "valAcc": 0.9507,
-      "loss": 0.1713,
-      "valLoss": 0.1224
+      "acc": 0.9457,
+      "valAcc": 0.9388,
+      "loss": 0.1836,
+      "valLoss": 0.1503
     },
     {
       "epoch": 18,
-      "acc": 0.9517,
-      "valAcc": 0.9167,
-      "loss": 0.1651,
-      "valLoss": 0.2012
+      "acc": 0.9472,
+      "valAcc": 0.8657,
+      "loss": 0.1751,
+      "valLoss": 0.3772
     },
     {
       "epoch": 19,
-      "acc": 0.9535,
-      "valAcc": 0.9675,
-      "loss": 0.1611,
-      "valLoss": 0.0885
+      "acc": 0.9487,
+      "valAcc": 0.9206,
+      "loss": 0.1737,
+      "valLoss": 0.2004
     },
     {
       "epoch": 20,
-      "acc": 0.9519,
-      "valAcc": 0.9808,
-      "loss": 0.1565,
-      "valLoss": 0.0632
+      "acc": 0.9474,
+      "valAcc": 0.9587,
+      "loss": 0.1696,
+      "valLoss": 0.1165
     },
     {
       "epoch": 21,
-      "acc": 0.9539,
-      "valAcc": 0.9442,
-      "loss": 0.1523,
-      "valLoss": 0.1365
+      "acc": 0.9516,
+      "valAcc": 0.8524,
+      "loss": 0.1634,
+      "valLoss": 0.4151
     },
     {
       "epoch": 22,
-      "acc": 0.9547,
-      "valAcc": 0.9563,
-      "loss": 0.1516,
-      "valLoss": 0.1064
+      "acc": 0.9525,
+      "valAcc": 0.9704,
+      "loss": 0.1593,
+      "valLoss": 0.0853
     },
     {
       "epoch": 23,
-      "acc": 0.9568,
-      "valAcc": 0.9869,
-      "loss": 0.1445,
-      "valLoss": 0.0442
+      "acc": 0.958,
+      "valAcc": 0.9898,
+      "loss": 0.1504,
+      "valLoss": 0.0358
     },
     {
       "epoch": 24,
-      "acc": 0.9581,
-      "valAcc": 0.9784,
-      "loss": 0.145,
-      "valLoss": 0.0616
-    },
-    {
-      "epoch": 25,
-      "acc": 0.9583,
-      "valAcc": 0.984,
-      "loss": 0.1419,
-      "valLoss": 0.0518
-    },
-    {
-      "epoch": 26,
-      "acc": 0.9576,
-      "valAcc": 0.9857,
-      "loss": 0.1409,
-      "valLoss": 0.0429
-    },
-    {
-      "epoch": 27,
-      "acc": 0.9605,
-      "valAcc": 0.974,
-      "loss": 0.1332,
-      "valLoss": 0.0689
-    },
-    {
-      "epoch": 28,
-      "acc": 0.9608,
-      "valAcc": 0.9777,
-      "loss": 0.1349,
-      "valLoss": 0.0631
-    },
-    {
-      "epoch": 29,
-      "acc": 0.9633,
-      "valAcc": 0.9876,
-      "loss": 0.1299,
-      "valLoss": 0.0414
-    },
-    {
-      "epoch": 30,
-      "acc": 0.9637,
-      "valAcc": 0.8983,
-      "loss": 0.125,
-      "valLoss": 0.3043
-    },
-    {
-      "epoch": 31,
-      "acc": 0.9611,
-      "valAcc": 0.983,
-      "loss": 0.1292,
-      "valLoss": 0.0511
-    },
-    {
-      "epoch": 32,
-      "acc": 0.9648,
-      "valAcc": 0.9765,
-      "loss": 0.1238,
-      "valLoss": 0.0594
-    },
-    {
-      "epoch": 33,
-      "acc": 0.9655,
-      "valAcc": 0.9716,
-      "loss": 0.1194,
-      "valLoss": 0.0683
-    },
-    {
-      "epoch": 34,
-      "acc": 0.9679,
-      "valAcc": 0.9842,
-      "loss": 0.1128,
-      "valLoss": 0.0413
-    },
-    {
-      "epoch": 35,
-      "acc": 0.9658,
-      "valAcc": 0.9932,
-      "loss": 0.1166,
-      "valLoss": 0.0299
-    },
-    {
-      "epoch": 36,
-      "acc": 0.9665,
-      "valAcc": 0.9791,
-      "loss": 0.1165,
+      "acc": 0.9556,
+      "valAcc": 0.9835,
+      "loss": 0.1493,
       "valLoss": 0.0481
     },
     {
-      "epoch": 37,
-      "acc": 0.968,
-      "valAcc": 0.9881,
-      "loss": 0.1117,
-      "valLoss": 0.0344
+      "epoch": 25,
+      "acc": 0.9573,
+      "valAcc": 0.9949,
+      "loss": 0.1433,
+      "valLoss": 0.0296
     },
     {
-      "epoch": 38,
-      "acc": 0.9681,
-      "valAcc": 0.9874,
-      "loss": 0.1143,
-      "valLoss": 0.0371
+      "epoch": 26,
+      "acc": 0.9577,
+      "valAcc": 0.9772,
+      "loss": 0.1413,
+      "valLoss": 0.0628
     },
     {
-      "epoch": 39,
-      "acc": 0.9671,
-      "valAcc": 0.9823,
-      "loss": 0.1139,
-      "valLoss": 0.0475
+      "epoch": 27,
+      "acc": 0.9609,
+      "valAcc": 0.9218,
+      "loss": 0.1314,
+      "valLoss": 0.2086
     },
     {
-      "epoch": 40,
-      "acc": 0.9688,
-      "valAcc": 0.9908,
-      "loss": 0.1121,
-      "valLoss": 0.0298
+      "epoch": 28,
+      "acc": 0.9626,
+      "valAcc": 0.9456,
+      "loss": 0.1333,
+      "valLoss": 0.1352
+    },
+    {
+      "epoch": 29,
+      "acc": 0.967,
+      "valAcc": 0.9422,
+      "loss": 0.1197,
+      "valLoss": 0.1381
+    },
+    {
+      "epoch": 30,
+      "acc": 0.9672,
+      "valAcc": 0.9124,
+      "loss": 0.1148,
+      "valLoss": 0.2371
+    },
+    {
+      "epoch": 31,
+      "acc": 0.9654,
+      "valAcc": 0.9886,
+      "loss": 0.1175,
+      "valLoss": 0.0381
+    },
+    {
+      "epoch": 32,
+      "acc": 0.9676,
+      "valAcc": 0.9767,
+      "loss": 0.1126,
+      "valLoss": 0.0557
+    },
+    {
+      "epoch": 33,
+      "acc": 0.9669,
+      "valAcc": 0.9735,
+      "loss": 0.1124,
+      "valLoss": 0.0637
     }
   ]
 }
